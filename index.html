@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="style.css">
+	<title>Aprendendo Soma</title>
+</head>
+<body>
+	<form onsubmit="calc(event);">
+		<input type="number" id="n1" required>
+		<input type="number" id="n2" required>
+		<button>Calc</button>
+		<p></p>
+	</form>
+<script type="text/javascript">
+  function calc(event) {
+  	event.preventDefault();
+	const n1 = document.querySelector('#n1').value;
+	const n2 = document.querySelector('#n2').value;
+	const p = document.querySelector('p');
+
+	p.innerHTML = 'SOMA = ' + (parseInt(n1) + parseInt(n2));
+
+	// console.log(text);
+
+  };
+</script>
+</body>
+</html>

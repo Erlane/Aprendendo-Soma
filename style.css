@@ -1,0 +1,22 @@
+body {
+	background-color: pink;
+	display: flex;
+	justify-content: center;
+}
+
+form {
+	width: 40vw;
+	height: 30vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+
+button {
+	width: 88%;
+    height: 6vh;
+    font-size: 22px;
+	border-radius: 50%;   
+	color: #FFFFFF;
+	background-color: black;
+}
